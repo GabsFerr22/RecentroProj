@@ -1,0 +1,23 @@
+.headerMapa{
+    background-color: "white";
+    padding: 10px; 
+}
+
+
+.logo{
+    height: "50px";
+    width: "auto";
+}
+
+.Pesquisar{
+    margin-left: "20px"; 
+    padding: "5px";
+}
+
+.BotaoAdmin{
+    background-color: "orange";
+    color: "white";
+    padding: "5px 10px";
+    border-radius: "5px";
+    margin-left: "20px"; 
+}
