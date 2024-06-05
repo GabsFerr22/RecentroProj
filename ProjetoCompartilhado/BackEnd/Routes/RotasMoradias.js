@@ -1,15 +1,15 @@
 import express from "express";
-import { addUser, deleteUser, getUsers, updateUser, getCoordinates } from "../controllers/Moradias.js";
+import { addLocations, deleteLocations, getLocations, updateLocations, getCoordinates } from "../controllers/Moradias.js";
 
 const router = express.Router()
 
-router.get("/", getUsers)
+router.get("/", getLocations)
 
-router.post("/", addUser)
+router.post("/", addLocations)
 
-router.put("/:idpredio", updateUser)
+router.put("/:idpredio", updateLocations)
 
-router.delete("/:idpredio", deleteUser)
+router.delete("/:idpredio", deleteLocations)
 
 router.get("/api/coordinates", getCoordinates)
 

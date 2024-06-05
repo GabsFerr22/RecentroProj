@@ -15,7 +15,7 @@ function Crud() {
   const [users, setUsers] = useState([]);
   const [onEdit, setOnEdit] = useState(null);
 
-  const getUsers = async () => {
+  const getLocations = async () => {
     try {
       const res = await axios.get("http://localhost:8800");
       console.log(res.data);
@@ -26,7 +26,7 @@ function Crud() {
   };
 
   useEffect(() => {
-    getUsers();
+    getLocations();
   }, [setUsers]);
 
   const handleGoBack = () => {
@@ -41,7 +41,7 @@ function Crud() {
             <FontAwesomeIcon icon={faSignOutAlt} className="logout-icon" />
           </div>
         <h2 className="title">MORADIAS</h2>
-        <Form onEdit={onEdit} setOnEdit={setOnEdit} getUsers={getUsers} />
+        <Form onEdit={onEdit} setOnEdit={setOnEdit} getLocations={getLocations} />
         <Grid setOnEdit={setOnEdit} users={users} setUsers={setUsers} />
       </div>
     </div>

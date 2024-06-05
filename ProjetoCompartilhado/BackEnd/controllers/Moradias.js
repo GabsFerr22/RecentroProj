@@ -1,6 +1,6 @@
 import { db } from "../db.js";
 
-export const getUsers = async (req, res) => {
+export const getLocations = async (req, res) => {
   const { page = 1, limit = 5 } = req.query;
   const offset = (page - 1) * limit;
 
@@ -27,7 +27,7 @@ export const getUsers = async (req, res) => {
 };
 
 
-export const addUser = (req, res) => {
+export const addLocations = (req, res) => {
   const q =
     "INSERT INTO endereco(`bairro`, `tipo`, `endereco`, `coordenada`) VALUES(?)";
 
@@ -45,7 +45,7 @@ export const addUser = (req, res) => {
   });
 };
 
-export const updateUser = (req, res) => {
+export const updateLocations = (req, res) => {
   const q =
     "UPDATE endereco SET `bairro` = ?, `tipo` = ?, `endereco` = ?, `coordenada` = ? WHERE `idpredio` = ?";
 
@@ -63,7 +63,7 @@ export const updateUser = (req, res) => {
   });
 };
 
-export const deleteUser = (req, res) => {
+export const deleteLocations = (req, res) => {
   const q = "DELETE FROM endereco WHERE `idpredio` = ?";
 
   db.query(q, [req.params.idpredio], (err) => {
