@@ -1,9 +1,10 @@
 import express from "express";
-import { getUsers, postUsers } from "../controllers/server.js";
+import { postUsers, getUsers } from "../controllers/LoginAdmin.js";
+import autenticacaoJWT from "../Middleware/Autenticacao.js";
 
-const router = express.Router()
+const router = express.Router();
 
-router.get("/", getUsers)
-router.post("/", postUsers )
+router.post("/login", postUsers);
+router.get("/users", autenticacaoJWT, getUsers);
 
 export default router;
