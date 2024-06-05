@@ -3,7 +3,7 @@
 
 <div align="center">
   
-![LogoRecentro](/ProjetoCompartilhado/FrontMapa/src/page/imgs/IMGGITHUBRECENTRO.jpg)
+![LogoRecentro](/ProjetoCompartilhado/FrontMapa/src/page/imgs/IMGGITHUBRECENTRO.png)
   
 </div>
 
@@ -16,15 +16,21 @@
 
 Falta de praticidade e plataformas integradas dificultam acesso a detalhes de imóveis no centro do Recife, prejudicando decisões informadas de compra ou investimento. Apartir deste ponto decidimos junto com a Recentro e o Porto Digital Criar plataforma digital integrada com mapeamento para acesso fácil a detalhes como valor histórico e proximidade com serviços, simplificando divulgação de moradias e apartamentos.
 
+<div align="center">
+
 ![GifUniCentro](/ProjetoCompartilhado/FrontMapa/src/page/imgs/GifMapaUniCentro.gif)
 
+</div>
 
 ## Guia De Inicio do UniCentro
 
 Atualmente o projeto está em estado de Desenvolvimento, não possuindo forma de acessa-lo virtualmente, a unica forma de fazer isso é rodando ele localmente na sua máquina, por meio da instalação do ambiente necessário para executar o software (Nodejs, MySQL, React e suas dependencias).
 
+<div align="center">
+
 ![Manutencao](/ProjetoCompartilhado/FrontMapa/src/page/imgs/Manutenção.jpg)
 
+</div>
 
 ## Detalhamento 
 
@@ -62,57 +68,103 @@ As rotas utilizadas no projeto para Moradias:
 
 **Back-End:** Parte do desenvolvimento de um site ou aplicação que se refere à lógica de negócios, operações de banco de dados, autenticação de usuários, etc.
 
+
+
 **Bibliotecas:** Conjuntos de funcionalidades e ferramentas prontas que facilitam o desenvolvimento de software.
+
+
 
 **Node.js:**** Ambiente de execução de JavaScript no lado do servidor, permitindo a construção de aplicativos escaláveis.
 
+
+
 **MySQL:** Sistema de gerenciamento de banco de dados relacional, usado para armazenar e gerenciar dados.
+
+
 
 **React:** Biblioteca JavaScript para construção de interfaces de usuário, principalmente em aplicações de página única.
 
+
+
 **CRUD:** Acrônimo para Create, Read, Update, Delete (Criar, Ler, Atualizar, Excluir) - operações básicas de manipulação de dados.
+
+
 
 **Cors:** Biblioteca Node.js para permitir ou restringir solicitações de recursos entre diferentes domínios.
 
+
+
 **Express:** Framework de aplicação web para Node.js, usado para construir APIs e aplicativos web.
+
+
 
 **Axios:** Biblioteca para fazer requisições HTTP no navegador e no Node.js.
 
+
+
 **dotenv:** Biblioteca para carregar variáveis de ambiente a partir de um arquivo .env.
+
+
 
 **React Router Dom:** Biblioteca para roteamento em aplicações React.
 
+
+
 **React Toastify:**** Biblioteca para exibir notificações de forma elegante em aplicações React.
+
+
 
 **FontAwesome:** Biblioteca de ícones personalizáveis usados em websites e aplicativos.
 
+
+
 **API (Application Programming Interface):** Conjunto de definições e protocolos para a construção e integração de software de aplicativos.
+
+
 
 **Pigeon Maps Demo:** API para a utilização de mapas e marcadores personalizados.
 
+
+
 **Banco de Dados Relacional:** Tipo de banco de dados que organiza dados em tabelas que podem ser relacionadas entre si.
+
+
 
 **Modelo ER (Entidade-Relacionamento):** Diagrama que mostra as entidades em um sistema e os relacionamentos entre elas.
 
+
+
 **Localhost:** Endereço de rede que refere-se à própria máquina utilizada para desenvolvimento e testes.
+
+
 
 **Rotas:** Caminhos definidos em uma aplicação para acessar diferentes partes do sistema ou API.
 
 
 ### Tutoriais Utilizados para criação do Projeto: 
+
 **CRUD**
-https://www.youtube.com/watch?v=V0InsRBl_G4&pp=ygUNY3JlYXRpbmcgY3J1ZA%3D%3D
+
+[![Youtube](/ProjetoCompartilhado/FrontMapa/src/page/imgs/ytb.png)](https://www.youtube.com/watch?v=V0InsRBl_G4&pp=ygUNY3JlYXRpbmcgY3J1ZA%3D%3D)
+
 **CRUD**
-https://www.youtube.com/watch?v=CUsCMKXpBGE&pp=ygUNY3JlYXRpbmcgY3J1ZA%3D%3D
+
+[![Youtube](/ProjetoCompartilhado/FrontMapa/src/page/imgs/ytb.png)](https://www.youtube.com/watch?v=CUsCMKXpBGE&pp=ygUNY3JlYXRpbmcgY3J1ZA%3D%3D)
+
+
+
 
 **Autenticação**
-https://www.youtube.com/watch?v=LjJFu6Y6MrU&t=187s&pp=ygUfYXV0ZW50aWNhw6fDo28gand0IG5vZGVqcyByZWFjdA%3D%3D
+
+[![Youtube](/ProjetoCompartilhado/FrontMapa/src/page/imgs/ytb.png)](https://www.youtube.com/watch?v=LjJFu6Y6MrU&t=187s&pp=ygUfYXV0ZW50aWNhw6fDo28gand0IG5vZGVqcyByZWFjdA%3D%3D)
 
 **JWT**
-https://www.youtube.com/watch?v=qEBoZ8lJR3k&pp=ygUfYXV0ZW50aWNhw6fDo28gand0IG5vZGVqcyByZWFjdA%3D%3D
+[![Youtube](/ProjetoCompartilhado/FrontMapa/src/page/imgs/ytb.png)](https://www.youtube.com/watch?v=qEBoZ8lJR3k&pp=ygUfYXV0ZW50aWNhw6fDo28gand0IG5vZGVqcyByZWFjdA%3D%3D)
 
 **Login**
-https://www.youtube.com/watch?v=300AFps_XoY&pp=ygURcGlnZW9uIG1hcHMgcmVhY3Q%3D
+
+[![Youtube](/ProjetoCompartilhado/FrontMapa/src/page/imgs/ytb.png)](https://www.youtube.com/watch?v=300AFps_XoY&pp=ygURcGlnZW9uIG1hcHMgcmVhY3Q%3D)
+
 
 
 
@@ -120,7 +172,7 @@ https://www.youtube.com/watch?v=300AFps_XoY&pp=ygURcGlnZW9uIG1hcHMgcmVhY3Q%3D
 
 Com grande prazer desenvolvi esta aplicação, e fico feliz em poder cooperar com a Recentro para criação dessa plataforma e contando com ajuda da minha equipe pude desenvolver da melhor forma possivel.
 
-**Equipe:**
+### Equipe
 
 João Gabriel F. (Desenvolverdor FullStack da Aplicação & Documentação)
 Laysa Freitas (Desenvolvedora Front-End)
