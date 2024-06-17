@@ -9,7 +9,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSignOutAlt } from '@fortawesome/free-solid-svg-icons';
 import { useNavigate } from 'react-router-dom';
 
-
 function Crud() {
   const navigate = useNavigate(); 
   const [users, setUsers] = useState([]);
@@ -37,15 +36,15 @@ function Crud() {
     <>
     <div className="body">
       <div className="container">
-      <div className="top-left-button" onClick={handleGoBack}>
-            <FontAwesomeIcon icon={faSignOutAlt} className="logout-icon" />
-          </div>
+        <div className="top-left-button" onClick={handleGoBack}>
+          <FontAwesomeIcon icon={faSignOutAlt} className="logout-icon" />
+        </div>
         <h2 className="title">MORADIAS</h2>
-        <Form onEdit={onEdit} setOnEdit={setOnEdit} getLocations={getLocations} />
+        <Form onEdit={onEdit} getLocations={getLocations} /> 
         <Grid setOnEdit={setOnEdit} users={users} setUsers={setUsers} />
       </div>
     </div>
-      <ToastContainer autoClose={3000} position="bottom-left" />
+    <ToastContainer autoClose={3000} position="bottom-left" />
     </>
   );
 }

@@ -16,6 +16,11 @@
 
 Falta de praticidade e plataformas integradas dificultam acesso a detalhes de imóveis no centro do Recife, prejudicando decisões informadas de compra ou investimento. Apartir deste ponto decidimos junto com a Recentro e o Porto Digital Criar plataforma digital integrada com mapeamento para acesso fácil a detalhes como valor histórico e proximidade com serviços, simplificando divulgação de moradias e apartamentos.
 
+1º Passo - Clonar o Repositorio na Maquina Local com o Git Clone 
+2º Passo - Dar um NPM Install para o node instalar todas as dependencias do projeto
+3º Passo - Dar um Npm Start na pasta do Back e do Front-end, e um npm run dev na pasta do back-end tbm
+4º Passo - Aguardar iniciar o projeto no respectivo localhost.
+
 <div align="center">
 
 ![GifUniCentro](/ProjetoCompartilhado/FrontMapa/src/page/imgs/GifMapaUniCentro.gif)
@@ -175,13 +180,21 @@ Com grande prazer desenvolvi esta aplicação, e fico feliz em poder cooperar co
 ### Equipe
 
 João Gabriel F. (Desenvolverdor FullStack da Aplicação & Documentação)
+
 Laysa Freitas (Desenvolvedora Front-End)
+
 José Roberto (Desenvolvedor Back-End)
+
 Julia de Andrade (BackLog e Apresentação)
+
 Julio Santana (BackLog e Apresentação)
+
 Leandro (Apoio e BackLog)
+
 Jose Henrique (Apoio)
+
 Isael G. (Apoio)
+
 Guilherme (Apoio)
 
 
